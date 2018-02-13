@@ -1,0 +1,112 @@
+Height 1080=632
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEMAAAD2vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAAD2gAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAElAAAAOn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAElAAAAAoBAAADAAAGcwAAA9oAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1920=960
+Window-Maximized 1080x1920=true
+
+[AdditionalInfoDialog]
+Height 1080=292
+Width 1920=276
+
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[DetailsMode]
+FontWeight=50
+PreviewSize=22
+
+[DownloadDialog Settings]
+Height 1050=514
+Height 1080=522
+Height 1440=540
+Width 1680=700
+Width 1920=700
+Width 3440=700
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+ShowZoomSlider=false
+Version=200
+ViewPropsTimestamp=2016,8,22,14,30,21
+
+[IconsMode]
+FontWeight=50
+IconSize=128
+PreviewSize=144
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/cloud/setup/linux/files_root/home/baka/.fonts/
+Recent URLs[$e]=file:$HOME/cloud/setup/linux/files_root/home/baka/,file:$HOME/cloud/setup/linux/files_root/home/baka/.fonts/
+
+[KPropertiesDialog]
+Height 1050=456
+Height 1080=502
+Height 1440=472
+Width 1680=657
+Width 1920=796
+Width 3440=879
+
+[MainWindow]
+Height 1050=673
+Height 1080=1049
+Height 1440=1264
+Height 768=688
+Height 900=480
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEeAAAEGvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABAAAAEGgAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAANcAAAAQj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAANcAAAAAoBAAADAAAMUQAABBoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1024=1278
+Width 1600=640
+Width 1680=1278
+Width 1720=1745
+Width 1920=1920
+Width 3440=2131
+Window-Maximized 1050x1680=true
+Window-Maximized 1080x1920=true
+Window-Maximized 1440x3440=true
+Window-Maximized 900x1600=true
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=48
+ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=5
+History=code,okular,clementine,gimp,/usr/bin/google-chrome-stable %U,okular %U %i -caption %c,/usr/share/atom/atom %F,vlc,kwrite,kwrite %U,chromium-browser %U
+
+[PlacesPanel]
+IconSize=48
+
+[PreviewSettings]
+Plugins=imagethumbnail,jpegthumbnail,kraorathumbnail,directorythumbnail,svgthumbnail
+
+[Search]
+What=Content
+
+[SettingsDialog]
+Height 1050=464
+Height 1080=460
+Height 1440=517
+Width 1680=711
+Width 1920=667
+Width 3440=862
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git
+
+[ViewPropertiesDialog]
+Height 1080=490
+Height 1440=462
+Width 1920=394
+Width 3440=416

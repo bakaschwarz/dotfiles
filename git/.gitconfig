@@ -1,0 +1,6 @@
+[user]
+	email = yannick.buelter@yabue.de
+[user]
+	name = Yannick Bülter
+[merge]
+	tool = meld

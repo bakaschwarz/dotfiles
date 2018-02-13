@@ -1,0 +1,21 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+{
+    "window.zoomLevel": 0,
+    "python.pythonPath": "python3",
+    "python.linting.pylintPath": "pylint3",
+    "files.autoSave": "afterDelay",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.smoothScrolling": true,
+    "php.suggest.basic": false,
+    "emmet.includeLanguages": {
+        "blade":    "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "java.errors.incompleteClasspath.severity": "ignore"
+}
