@@ -1,6 +1,6 @@
 // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "python.pythonPath": "python3",
     "python.linting.pylintPath": "pylint3",
     "files.autoSave": "afterDelay",

@@ -1,0 +1,50 @@
+[1]
+Description=Programm-Einstellungen für mpv
+above=true
+aboverule=3
+clientmachine=localhost
+clientmachinematch=0
+desktop=-1
+desktoprule=3
+noborder=true
+noborderrule=3
+wmclass=gl mpv
+wmclasscomplete=true
+wmclassmatch=1
+
+[Directories]
+dir_pixmap[$d]
+
+[General]
+BrowserApplication[$d]
+ColorScheme[$d]
+Name[$d]
+count=1
+fixed[$d]
+font[$d]
+menuFont[$d]
+shadeSortColumn[$d]
+smallestReadableFont[$d]
+toolBarFont[$d]
+
+[Icons]
+Theme[$d]
+
+[KDE]
+ChangeCursor[$d]
+ColorScheme[$d]
+LookAndFeelPackage[$d]
+contrast[$d]
+widgetStyle[$d]
+
+[KFileDialog Settings]
+Breadcrumb Navigation[$d]
+
+[Paths]
+Trash[$d]
+
+[PreviewSettings]
+MaximumSize[$d]
+camera[$d]
+file[$d]
+fonts[$d]

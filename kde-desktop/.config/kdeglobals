@@ -1,0 +1,287 @@
+[$Version]
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+
+[ColorEffects:Disabled]
+Color=
+ColorAmount=
+ColorEffect=
+ContrastAmount=
+ContrastEffect=
+IntensityAmount=
+IntensityEffect=
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=
+ColorAmount=
+ColorEffect=
+ContrastAmount=
+ContrastEffect=
+Enable=false
+IntensityAmount=
+IntensityEffect=
+
+[Colors:Button]
+BackgroundAlternate=224,223,222
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
+
+[Colors:Complementary]
+BackgroundAlternate=62,71,78
+BackgroundNormal=49,54,59
+DecorationFocus=30,146,255
+DecorationHover=61,174,230
+ForegroundActive=246,116,0
+ForegroundInactive=67,76,84
+ForegroundLink=61,174,230
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=239,240,241
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=54,215,183
+BackgroundNormal=26,188,156
+DecorationFocus=26,188,156
+DecorationHover=54,215,183
+ForegroundActive=96,55,113
+ForegroundInactive=222,222,222
+ForegroundLink=0,98,218
+ForegroundNegative=231,76,60
+ForegroundNeutral=168,88,23
+ForegroundNormal=255,255,255
+ForegroundPositive=37,116,165
+ForegroundVisited=145,61,136
+
+[Colors:Tooltip]
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=126,178,230
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=247,247,247
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
+
+[Colors:View]
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
+
+[Colors:Window]
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=54,215,183
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
+
+[DesktopIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.699999988079071
+Animated=true
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=48
+
+[DialogIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file:///nfs/cloud
+
+[General]
+ColorScheme=Breath Dark
+Name=Breath
+TerminalApplication[$e]=konsole
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=rgb
+dbfile=/home/baka/.mozilla/firefox/xw9yngde.default/places.sqlite
+fixed=Noto Mono,9,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+
+[Icons]
+Theme=breath
+
+[KDE]
+DoubleClickInterval=400
+LookAndFeelPackage=org.kde.breath.desktop
+ShowDeleteCommand=false
+SingleClick=false
+StartDragDist=4
+StartDragTime=500
+WheelScrollLines=2
+contrast=4
+widgetStyle=breeze
+
+[KFileDialog Settings]
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Previews=true
+Show Bookmarks=false
+Show Full Path=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=169
+View Style=Simple
+listViewIconSize=78
+
+[KShortcutsDialog Settings]
+Dialog Size=631,480
+
+[MainToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
+[PanelIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.699999988079071
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=128
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[SmallIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=16
+
+[ToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
+[WM]
+activeBackground=41,47,52
+activeBlend=41,47,52
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeForeground=255,255,255
+inactiveBackground=41,47,52
+inactiveBlend=41,47,52
+inactiveForeground=130,130,130

@@ -1,0 +1,103 @@
+[Containments][52][General]
+AppletOrder=53;54;55;56;57;59
+
+[Containments][58][General]
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
+
+[DownloadDialog Settings]
+Height 1440=522
+Width 3440=700
+Window-Maximized 1440x3440=true
+
+[FileDialogSize]
+Height 1080=602
+Height 1440=564
+Width 1920=881
+Width 3440=926
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Bilder/wallpaper/Anime/682350.jpg,file:$HOME/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:$HOME/Bilder/wallpaper/Anime/wallhaven-614418.jpg,file:$HOME/Bilder/wallpaper/Anime/1453616251692.png,file:$HOME/Bilder/wallpaper/Anime/765058.jpg,file:$HOME/Bilder/wallpaper/Anime/736039.png,file:$HOME/Bilder/wallpaper/Anime/682365.jpg
+Recent URLs[$e]=file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/
+
+[KPropertiesDialog]
+Height 1440=456
+Width 3440=473
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1720]
+thickness=30
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal3440]
+thickness=30
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 52][Horizontal3440]
+thickness=39
+
+[PlasmaViews][Panel 69]
+alignment=132
+panelVisibility=1
+
+[PlasmaViews][Panel 69][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 69][Horizontal2560]
+thickness=30
+
+[PlasmaViews][Panel 69][Horizontal3440]
+maxLength=1036
+minLength=1026
+offset=0
+thickness=94
+
+[PlasmaViews][Panel 69][Vertical1440]
+thickness=36
+
+[ScreenConnectors]
+0=DP1
+1=HDMI2
+2=:0.0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

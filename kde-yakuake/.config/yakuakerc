@@ -1,56 +1,17 @@
-[Animation]
-Frames=20
-
 [Appearance]
-Skin=arc-dark
-Translucency=true
+BackgroundColorOpacity=20
 
 [Desktop Entry]
-DefaultProfile=Profile 1.profile
-
-[Dialogs]
-FirstRun=false
+DefaultProfile=
 
 [DownloadDialog Settings]
-Height 1080=504
-Width 1920=700
+Height 1440=522
+Width 3440=700
 
 [Favorite Profiles]
 Favorites=
 
-[Profile Shortcuts]
-Ctrl+C=Profile 1.profile
-
-[Shortcuts]
-close-active-terminal=Ctrl+Shift+R
-close-session=Ctrl+Shift+W
-decrease-window-height=Alt+Shift+Up
-decrease-window-width=Alt+Shift+Left
-file_quit=Ctrl+Shift+Q
-grow-terminal-bottom=Ctrl+Alt+Down
-grow-terminal-left=Ctrl+Alt+Left
-grow-terminal-right=Ctrl+Alt+Right
-grow-terminal-top=Ctrl+Alt+Up
-help_whats_this=none
-increase-window-height=Alt+Shift+Down
-increase-window-width=Alt+Shift+Right
-move-session-left=Ctrl+Shift+Left
-move-session-right=Ctrl+Shift+Right
-new-session=Ctrl+Shift+T
-next-terminal=Ctrl+Shift+Down
-previous-terminal=Ctrl+Shift+Up
-rename-session=Ctrl+Alt+S
-split-left-right=Ctrl+(
-split-top-bottom=Ctrl+)
-switch-to-session-1=Alt+1
-switch-to-session-2=Alt+2
-switch-to-session-3=Alt+3
-switch-to-session-4=Alt+4
-toggle-session-monitor-activity=Ctrl+Shift+A
-toggle-session-monitor-silence=Ctrl+Shift+I
-view-full-screen=Ctrl+Shift+F11
-
 [Window]
 Height=100
-Position=0
+KeepOpen=true
 Width=100

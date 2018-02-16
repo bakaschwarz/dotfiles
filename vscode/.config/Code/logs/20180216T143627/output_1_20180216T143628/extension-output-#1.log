@@ -1,0 +1,5 @@
+Suchen nach Git in: git
+Verwenden von Git 2.16.1 von git
+git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+

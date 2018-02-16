@@ -1,0 +1,9 @@
+[Added Associations]
+application/xml=code.desktop;
+audio/mpeg=mpv-2.desktop;
+text/plain=visual-studio-code.desktop;
+
+[Default Applications]
+application/xml=code.desktop;
+audio/mpeg=mpv-2.desktop;
+text/plain=visual-studio-code.desktop;

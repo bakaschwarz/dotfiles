@@ -1,0 +1,20 @@
+[DownloadDialog Settings]
+Height 1440=550
+Width 3440=700
+
+[FileDialogSize]
+Height 1440=480
+Width 3440=640
+
+[KFileDialog Settings]
+Recent Files[$e]=avatar.png,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:///nfs/cloud/images/personal/avatar.png
+Recent URLs[$e]=file:///nfs/cloud/images/personal/,file:///nfs/cloud/images/,file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/
+
+[MainWindow]
+Height 1080=480
+Height 1440=783
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=640
+Width 3440=901
