@@ -1,5 +1,8 @@
 [Mouse]
 Acceleration=2
+AccelerationProfile=Adaptive
 MouseButtonMapping=RightHanded
 ReverseScrollPolarity=false
 Threshold=4
+cursorSize=0
+cursorTheme=capitaine-cursors

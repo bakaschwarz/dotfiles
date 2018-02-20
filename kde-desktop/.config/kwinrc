@@ -2,7 +2,7 @@
 AnimationSpeed=3
 Backend=OpenGL
 Enabled=true
-GLCore=true
+GLCore=false
 GLPreferBufferSwap=p
 GLTextureFilter=2
 HiddenPreviews=5

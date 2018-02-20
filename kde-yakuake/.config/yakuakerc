@@ -2,7 +2,7 @@
 BackgroundColorOpacity=20
 
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Shell.profile
 
 [DownloadDialog Settings]
 Height 1440=522

@@ -442,19 +442,20 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/home/baka/.config/Code/Backups/1518788298771",
+            "backupPath": "/home/baka/.config/Code/Backups/1518822366736",
             "uiState": {
                 "mode": 1,
-                "x": 246,
-                "y": 1617,
-                "width": 1714,
-                "height": 897
+                "x": 2174,
+                "y": 388,
+                "width": 1024,
+                "height": 768
             }
         }
     },
     "openedPathsList": {
         "workspaces": [],
         "files": [
+            "/home/baka/dotfiles/bash/.bashrc",
             "/home/baka/.config/trashrc",
             "/home/baka/.config/TeXstudiorc",
             "/home/baka/.config/systemsettingsrc",
@@ -508,7 +509,6 @@
             "/home/baka/.config/gtk-3.0/settings.ini",
             "/home/baka/.config/gtk-2.0/gtkfilechooser.ini",
             "/home/baka/.config/fontconfig/fonts.conf",
-            "/home/baka/dotfiles/bash/.bashrc",
             "/home/baka/.config/fish/functions/fish_prompt.fish",
             "/home/baka/.config/fish/functions/fin.fish",
             "/home/baka/.config/fish/fishfile",

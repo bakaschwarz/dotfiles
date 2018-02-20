@@ -1,6 +1,9 @@
 # Remove the annoying greeting
 set fish_greeting ""
 
+# Add Go binaries to PATH
+set PATH $PATH $HOME/.go/bin
+
 # functions
 
 function add_key

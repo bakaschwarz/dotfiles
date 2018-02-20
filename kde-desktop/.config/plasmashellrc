@@ -86,8 +86,8 @@ thickness=30
 thickness=30
 
 [PlasmaViews][Panel 69][Horizontal3440]
-maxLength=1036
-minLength=1026
+maxLength=1182
+minLength=1120
 offset=0
 thickness=94
 
@@ -96,8 +96,8 @@ thickness=36
 
 [ScreenConnectors]
 0=DP1
-1=HDMI2
-2=:0.0
+1=:0.0
+2=HDMI2
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

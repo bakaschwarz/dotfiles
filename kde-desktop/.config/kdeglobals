@@ -172,7 +172,7 @@ ShowDeleteCommand=false
 SingleClick=false
 StartDragDist=4
 StartDragTime=500
-WheelScrollLines=2
+WheelScrollLines=3
 contrast=4
 widgetStyle=breeze
 

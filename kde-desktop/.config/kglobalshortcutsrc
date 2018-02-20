@@ -1,3 +1,6 @@
+[$Version]
+update_info=powerdevil_move_shortcuts.upd:powerdevil_move_shortcuts
+
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Auf nächste Tastaturbelegung umschalten
 _k_friendly_name=KDE Daemon
@@ -13,16 +16,16 @@ Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Touchpad umschalten
 _k_friendly_name=KDE Daemon
 
 [kded5]
-Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Helligkeit der Tastatur-Hintergrundbeleuchtung verringern
-Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Bildschirmhelligkeit verringern
-Hibernate=Hibernate,Hibernate,Ruhezustand
-Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Helligkeit der Tastatur-Hintergrundbeleuchtung erhöhen
-Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Bildschirmhelligkeit erhöhen
-PowerOff=Power Off,Power Off,Ausschalten
+Decrease Keyboard Brightness[$d]
+Decrease Screen Brightness[$d]
+Hibernate[$d]
+Increase Keyboard Brightness[$d]
+Increase Screen Brightness[$d]
+PowerOff[$d]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Systemaktivität anzeigen
-Sleep=Sleep,Sleep,Standby-Modus
-Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Hintergrundbeleuchtung der Tastatur umschalten
-_k_friendly_name=Energieverwaltung
+Sleep[$d]
+Toggle Keyboard Backlight[$d]
+_k_friendly_name=KDE Daemon
 display=Display\tMeta+P,Display\tMeta+P,Anzeige wechseln
 
 [khotkeys]
@@ -243,6 +246,17 @@ nextmedia=Media Next,Media Next,Nächstes Medium wiedergeben
 playpausemedia=Media Play,Media Play,Medienwiedergabe starten/anhalten
 previousmedia=Media Previous,Media Previous,Vorheriges Medium wiedergeben
 stopmedia=Media Stop,Media Stop,Medienwiedergabe anhalten
+
+[org_kde_powerdevil]
+Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Helligkeit der Tastatur-Hintergrundbeleuchtung verringern
+Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Bildschirmhelligkeit verringern
+Hibernate=Hibernate,Hibernate,Ruhezustand
+Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Helligkeit der Tastatur-Hintergrundbeleuchtung erhöhen
+Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Bildschirmhelligkeit erhöhen
+PowerOff=Power Off,Power Off,Ausschalten
+Sleep=Sleep,Sleep,Standby-Modus
+Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Hintergrundbeleuchtung der Tastatur umschalten
+_k_friendly_name=Energieverwaltung
 
 [plasmashell]
 _k_friendly_name=Plasma

@@ -160,16 +160,16 @@ Theme=breath
 
 [KDE]
 DoubleClickInterval=400
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=org.kde.breath.desktop
 ShowDeleteCommand=false
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
 StartDragDist=4
 StartDragTime=500
-WheelScrollLines=2
+WheelScrollLines=3
 contrast=4
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [MainToolbarIcons]
 ActiveColor=169,156,255
