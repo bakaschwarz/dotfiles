@@ -12,9 +12,13 @@ Recent URLs[$e]=file:///nfs/cloud/images/personal/,file:///nfs/cloud/images/,fil
 
 [MainWindow]
 Height 1080=480
-Height 1440=948
+Height 1440=691
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1720=640
 Width 1920=640
-Width 3440=1213
+Width 3440=1454
+Window-Maximized 1080x1920=false
+Window-Maximized 1440x1720=true
+Window-Maximized 1440x3440=false

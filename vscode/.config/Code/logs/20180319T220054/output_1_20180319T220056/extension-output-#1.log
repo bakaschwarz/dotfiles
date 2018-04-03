@@ -1,0 +1,12 @@
+Suchen nach Git in: git
+Verwenden von Git 2.16.2 von git
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git show :kde-desktop/.kde4/share/apps/color-schemes/Breath.colors
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose

@@ -12,6 +12,16 @@ wmclass=gl mpv
 wmclasscomplete=true
 wmclassmatch=1
 
+[2]
+Description=Alle Fenster starten auf dem richtigen Bildschirm.
+placement=Centered
+placementrule=2
+screen=0
+screenrule=3
+wmclass=
+wmclasscomplete=false
+wmclassmatch=0
+
 [Directories]
 dir_pixmap[$d]
 
@@ -19,7 +29,7 @@ dir_pixmap[$d]
 BrowserApplication[$d]
 ColorScheme[$d]
 Name[$d]
-count=1
+count=2
 fixed[$d]
 font[$d]
 menuFont[$d]

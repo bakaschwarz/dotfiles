@@ -10,3 +10,10 @@ function add_key
      gpg --recv-keys $argv[1]
      gpg --lsign $argv[1]
 end
+
+function update
+    git pull --rebase
+    if [ $status = 128 ]
+        svn update .
+    end
+end

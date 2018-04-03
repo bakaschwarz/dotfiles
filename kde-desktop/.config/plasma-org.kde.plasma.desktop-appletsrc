@@ -24,6 +24,9 @@ favoritesPortedToKAstats=true
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -39,6 +42,9 @@ launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin
 immutability=1
 plugin=org.kde.redshiftControl
 
+[Containments][1][Applets][49][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][49][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -50,19 +56,29 @@ smoothTransitions=true
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][1][Applets][5][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][50]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
+[Containments][1][Applets][50][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][6]
 immutability=1
 plugin=org.kde.plasma.trash
+
+[Containments][1][Applets][6][Configuration]
+PreloadWeight=0
 
 [Containments][1][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
+PreloadWeight=23
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -73,9 +89,15 @@ location=4
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][1][Applets][8][Configuration]
+PreloadWeight=0
+
 [Containments][1][ConfigDialog]
 DialogHeight=89
 DialogWidth=3440
+
+[Containments][1][Configuration]
+PreloadWeight=0
 
 [Containments][1][General]
 AppletOrder=3;50;5;6;7;8;49
@@ -92,6 +114,9 @@ wallpaperplugin=org.kde.image
 [Containments][46][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][46][Configuration]
+PreloadWeight=0
 
 [Containments][46][General]
 positions=2,31,desktop:/trash.desktop,1,3,desktop:/Home.desktop,0,1
@@ -115,12 +140,15 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][51][Configuration]
+PreloadWeight=0
+
 [Containments][51][General]
 showToolbox=false
 
 [Containments][51][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=/home/baka/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg
+Image=/home/baka/Bilder/wallpaper/DDLC/Desktop/07.png
 
 [Containments][69]
 activityId=
@@ -136,6 +164,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][71][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/telegram-desktop.desktop
 url=file:///usr/bin/telegram-desktop
 
@@ -144,6 +173,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][72][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/spotify.desktop
 url=file:///usr/share/applications/spotify.desktop
 
@@ -152,6 +182,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][73][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/visual-studio-code.desktop
 url=file:///usr/share/applications/visual-studio-code.desktop
 
@@ -160,6 +191,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][74][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/texstudio.desktop
 url=file:///usr/share/applications/texstudio.desktop
 
@@ -168,6 +200,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][75][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -176,6 +209,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][76][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/systemsettings.desktop
 url=file:///usr/share/applications/systemsettings.desktop
 
@@ -184,6 +218,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][77][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/octopi.desktop
 url=file:///usr/share/applications/octopi.desktop
 
@@ -192,6 +227,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][78][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/firefox.desktop
 url=file:///usr/share/applications/firefox.desktop
 
@@ -200,6 +236,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][79][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/google-chrome.desktop
 url=file:///usr/share/applications/google-chrome.desktop
 
@@ -208,6 +245,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][80][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/virt-manager.desktop
 url=file:///usr/share/applications/virt-manager.desktop
 
@@ -216,6 +254,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][81][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/Discord.desktop
 url=file:///usr/share/applications/Discord.desktop
 
@@ -224,6 +263,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][82][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/GitKraken.desktop
 url=file:///usr/share/applications/GitKraken.desktop
 
@@ -232,15 +272,28 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][69][Applets][84][Configuration]
+PreloadWeight=0
 localPath=/home/baka/.local/share/plasma_icons/org.kde.kontact.desktop
 url=file:///usr/share/applications/org.kde.kontact.desktop
+
+[Containments][69][Applets][88]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][69][Applets][88][Configuration]
+PreloadWeight=0
+localPath=/home/baka/.local/share/plasma_icons/everdo.desktop
+url=file:///usr/share/applications/everdo.desktop
 
 [Containments][69][ConfigDialog]
 DialogHeight=89
 DialogWidth=3440
 
+[Containments][69][Configuration]
+PreloadWeight=0
+
 [Containments][69][General]
-AppletOrder=75;73;78;71;81;72;74;80;84;82;79;76;77
+AppletOrder=75;73;78;71;81;72;74;80;84;82;79;76;77;88
 
 [Containments][8]
 activityId=
@@ -255,21 +308,36 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][8][Applets][37][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][38]
 immutability=1
 plugin=org.kde.plasma.printmanager
+
+[Containments][8][Applets][38][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][39]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][8][Applets][39][Configuration]
+PreloadWeight=9
+
 [Containments][8][Applets][40]
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][8][Applets][40][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][41]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][8][Applets][41][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][41][Configuration][ConfigDialog]
 DialogHeight=540
@@ -279,13 +347,22 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][8][Applets][42][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][43]
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][8][Applets][43][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][44]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][8][Applets][44][Configuration]
+PreloadWeight=6
 
 [Containments][8][Applets][45]
 immutability=1
@@ -295,9 +372,15 @@ plugin=org.kde.plasma.bluetooth
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][8][Applets][47][Configuration]
+PreloadWeight=0
+
 [Containments][8][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][8][Configuration]
+PreloadWeight=0
 
 [Containments][8][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
@@ -305,17 +388,27 @@ hiddenItems=org.kde.plasma.printmanager,org.kde.kdeconnect
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
 shownItems=Nextcloud,org.kde.plasma.volume,octopi-notifier,TelegramDesktop
 
-[Containments][83]
+[Containments][87]
 activityId=1fd9eb11-e5a9-4c97-9632-7dcb07beeb82
 formfactor=0
 immutability=1
 lastScreen=2
 location=0
-plugin=org.kde.plasma.folder
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
+[Containments][87][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
+[Containments][87][Configuration]
+PreloadWeight=0
+
+[Containments][87][Wallpaper][org.kde.image][General]
+Image=file:///nfs/cloud/images/wallpaper/DDLC/Desktop/07.png
+
 [General]
-immutability=1
+immutability=2
 
 [ScreenMapping]
-screenMapping=desktop:/Videos,2,desktop:/Repositories,2,desktop:/Dev,2,desktop:/Downloads,2,desktop:/Bilder,2,desktop:/Dokumente,2,desktop:/root@igz.sowi.uni-bremen.de,2,desktop:/Musik,2,desktop:/dotfiles,2
+screenMapping=desktop:/Videos,2,desktop:/Bilder,2,desktop:/Downloads,2,desktop:/Musik,2,desktop:/Repositories,2,desktop:/dotfiles,2,desktop:/root@igz.sowi.uni-bremen.de,2,desktop:/Dev,2,desktop:/Dokumente,2

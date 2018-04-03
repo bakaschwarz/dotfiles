@@ -1,6 +1,6 @@
 [GuiConfig]
 captureModeIndex=4
-cropRegion=3102,186,1057,1222
+cropRegion=230,280,1459,31
 includeDecorations=true
 includePointer=false
-window-position=2517,938
+window-position=2523,556

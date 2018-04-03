@@ -51,28 +51,28 @@ Recent URLs[$e]=file:$HOME/cloud/setup/linux/files_root/home/baka/,file:$HOME/cl
 [KPropertiesDialog]
 Height 1050=456
 Height 1080=502
-Height 1440=422
+Height 1440=526
 Width 1680=657
 Width 1920=796
-Width 3440=604
+Width 3440=711
 
 [MainWindow]
 Height 1050=673
-Height 1080=1037
-Height 1440=1037
+Height 1080=1007
+Height 1440=1007
 Height 2160=865
 Height 768=688
 Height 900=480
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADsAAAC6fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAAEGAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABAAAAC6QAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAGfgAAAOP8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAGfgAAAAoBAAADAAAFkQAAAukAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADsAAACy/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAAEGAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABAAAACywAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAADugAAAOP8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAADugAAAAoBAAADAAACzQAAAssAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1024=1278
 Width 1600=640
 Width 1680=1278
-Width 1720=1272
-Width 1920=1662
+Width 1720=954
+Width 1920=954
 Width 2560=1359
-Width 3440=1662
+Width 3440=954
 Width 3840=1282
 Window-Maximized 1050x1680=true
 Window-Maximized 1080x1920=false
@@ -85,7 +85,7 @@ ToolButtonStyle=IconOnly
 
 [Open-with settings]
 CompletionMode=5
-History=code,mpv,/opt/visual-studio-code/code %f,okular,clementine,gimp,/usr/bin/google-chrome-stable %U,okular %U %i -caption %c,/usr/share/atom/atom %F,vlc,kwrite,kwrite %U,chromium-browser %U
+History=qbit,code,mpv,/opt/visual-studio-code/code %f,okular,clementine,gimp,/usr/bin/google-chrome-stable %U,okular %U %i -caption %c,/usr/share/atom/atom %F,vlc,kwrite,kwrite %U,chromium-browser %U
 
 [PlacesPanel]
 IconSize=48

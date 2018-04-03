@@ -1,0 +1,29 @@
+[2018-03-15 17:01:31.581] [sharedprocess] [info] main {"machineId":"2c39b8d152e0ac0804ae8ea8d5678ea0661509cfce8cc174222771333e25c106"}
+[2018-03-15 17:01:31.767] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-15 17:01:31.780] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:32.305] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:32.306] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:32.320] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-15 17:01:35.066] [sharedprocess] [info] Installing extension: php-debug
+[2018-03-15 17:01:35.068] [sharedprocess] [info] Installing extension: vscode-java-debug
+[2018-03-15 17:01:35.068] [sharedprocess] [info] Installing extension: vscode-maven
+[2018-03-15 17:01:35.098] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:35.110] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-15 17:01:35.433] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:37.339] [sharedprocess] [info] Downloaded extension: vscode-maven
+[2018-03-15 17:01:37.341] [sharedprocess] [info] Downloaded extension: php-debug
+[2018-03-15 17:01:37.927] [sharedprocess] [info] Extracted extension to /home/baka/.vscode/extensions/vscjava.vscode-maven-0.6.0: vscjava.vscode-maven-0.6.0
+[2018-03-15 17:01:37.947] [sharedprocess] [info] Updated metadata of the extension: vscjava.vscode-maven-0.6.0
+[2018-03-15 17:01:37.947] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-maven
+[2018-03-15 17:01:37.953] [sharedprocess] [info] Extracted extension to /home/baka/.vscode/extensions/felixfbecker.php-debug-1.12.2: felixfbecker.php-debug-1.12.2
+[2018-03-15 17:01:37.971] [sharedprocess] [info] Updated metadata of the extension: felixfbecker.php-debug-1.12.2
+[2018-03-15 17:01:37.971] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-debug
+[2018-03-15 17:01:37.978] [sharedprocess] [info] Downloaded extension: vscode-java-debug
+[2018-03-15 17:01:38.028] [sharedprocess] [info] Extracted extension to /home/baka/.vscode/extensions/vscjava.vscode-java-debug-0.7.0: vscjava.vscode-java-debug-0.7.0
+[2018-03-15 17:01:38.043] [sharedprocess] [info] Updated metadata of the extension: vscjava.vscode-java-debug-0.7.0
+[2018-03-15 17:01:38.043] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-debug
+[2018-03-15 17:01:38.254] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:38.255] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:38.258] [sharedprocess] [info] Scanned user extensions: 26
+[2018-03-15 17:01:38.282] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-15 17:01:38.286] [sharedprocess] [info] Scanned system extensions: 65

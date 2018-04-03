@@ -12,13 +12,13 @@ Window-Maximized 1440x3440=true
 
 [FileDialogSize]
 Height 1080=602
-Height 1440=564
+Height 1440=602
 Width 1920=881
-Width 3440=926
+Width 3440=881
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Bilder/wallpaper/Anime/682350.jpg,file:$HOME/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:$HOME/Bilder/wallpaper/Anime/wallhaven-614418.jpg,file:$HOME/Bilder/wallpaper/Anime/1453616251692.png,file:$HOME/Bilder/wallpaper/Anime/765058.jpg,file:$HOME/Bilder/wallpaper/Anime/736039.png,file:$HOME/Bilder/wallpaper/Anime/682365.jpg
-Recent URLs[$e]=file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/
+Recent Files[$e]=file:$HOME/Bilder/wallpaper/Anime/682350.jpg,file:$HOME/Bilder/wallpaper/DDLC/Desktop/07.png,file:$HOME/Bilder/wallpaper/Anime/serveimage.jpg,file:$HOME/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:$HOME/Bilder/wallpaper/Anime/wallhaven-614418.jpg,file:$HOME/Bilder/wallpaper/Anime/1453616251692.png,file:$HOME/Bilder/wallpaper/Anime/765058.jpg,file:$HOME/Bilder/wallpaper/Anime/736039.png,file:$HOME/Bilder/wallpaper/Anime/682365.jpg
+Recent URLs[$e]=file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/,file:$HOME/Bilder/,file:$HOME/Bilder/wallpaper/DDLC/Desktop/
 
 [KPropertiesDialog]
 Height 1440=456
@@ -86,8 +86,8 @@ thickness=30
 thickness=30
 
 [PlasmaViews][Panel 69][Horizontal3440]
-maxLength=1182
-minLength=1120
+maxLength=1308
+minLength=1306
 offset=0
 thickness=94
 
@@ -96,8 +96,8 @@ thickness=36
 
 [ScreenConnectors]
 0=DP1
-1=:0.0
-2=HDMI2
+1=HDMI2
+2=:0.0
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

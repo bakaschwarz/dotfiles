@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Name=test.ods
+Type=Link
+URL[$e]=file://$HOME/Dokumente/work/test.ods
+X-KDE-LastOpenedWith=LibreOffice

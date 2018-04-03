@@ -1,0 +1,14 @@
+[2018-03-15 17:01:57.122] [exthost1] [info] extension host started
+[2018-03-15 17:01:57.147] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.147] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2018-03-15 17:01:57.184] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.184] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2018-03-15 17:01:57.231] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.231] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-03-15 17:01:57.241] [exthost1] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.241] [exthost1] [info] ExtensionService#loadCommonJSModule /home/baka/.vscode/extensions/EditorConfig.editorconfig-0.12.1/out/src/editorConfigMain
+[2018-03-15 17:01:57.264] [exthost1] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.264] [exthost1] [info] ExtensionService#loadCommonJSModule /home/baka/.vscode/extensions/codingyu.laravel-goto-view-1.2.0/out/src/extension
+[2018-03-15 17:01:57.268] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-03-15 17:01:57.268] [exthost1] [info] ExtensionService#loadCommonJSModule /home/baka/.vscode/extensions/robertohuertasm.vscode-icons-7.21.0/out/src/
+[2018-03-15 17:01:57.334] [exthost1] [info] eager extensions activated

@@ -63,7 +63,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -442,19 +442,50 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/home/baka/.config/Code/Backups/1518822366736",
+            "backupPath": "/home/baka/.config/Code/Backups/1522189031617",
             "uiState": {
-                "mode": 1,
-                "x": 2174,
-                "y": 388,
-                "width": 1024,
-                "height": 768
+                "mode": 0,
+                "x": 1920,
+                "y": 67,
+                "width": 3440,
+                "height": 1373
             }
         }
     },
     "openedPathsList": {
         "workspaces": [],
         "files": [
+            "/nfs/downloads/Science Fiction/Varley, John/Varley, John - The Golden Globe.txt",
+            "/home/baka/dotfiles/kde-desktop/.kde4/share/apps/color-schemes/Breath.colors",
+            "/nfs/repos/ccm_ng/ccm.sh",
+            "/nfs/cloud/scripts/ds",
+            "/nfs/cloud/dev/deepwater/deepwater/utils/file.py",
+            "/nfs/repos/ccm_ng/README.txt",
+            "/home/baka/wildfly/standalone/configuration/mgmt-users.properties",
+            "/home/baka/wildfly/bin/domain.conf",
+            "/home/baka/wildfly/bin/standalone.conf",
+            "/nfs/downloads/cvxycv.json",
+            "/nfs/cloud/Notes/libreccmmeeting.txt",
+            "/nfs/repos/trunk/ccm-core/src/log4j2.xml",
+            "/nfs/cloud/dev/dont_starve/mods/glace/scripts/prefabs/glace.lua",
+            "/nfs/cloud/share/Logins/websitepasswort.txt",
+            "/nfs/cloud/share/Logins/owncloudpasswort.txt",
+            "/nfs/repos/yabue-website/.git/config",
+            "/nfs/cloud/dev/deepwater/deepwater/image/manipulate.py",
+            "/home/baka/.AndroidStudio3.0/system/log/idea.log",
+            "/nfs/downloads/yabuescanner/app/src/main/AndroidManifest.xml",
+            "/nfs/downloads/yabuescanner/app/proguard-rules.pro",
+            "/nfs/downloads/yabuescanner/app/build.gradle",
+            "/nfs/downloads/yabuescanner/build.gradle",
+            "/nfs/downloads/yabuescanner/gradle.properties",
+            "/nfs/downloads/yabuescanner/gradlew.bat",
+            "/nfs/downloads/yabuescanner/settings.gradle",
+            "/nfs/downloads/yabuescanner/local.properties",
+            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/MasterActivity.java",
+            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/adapters/ProductAdapter.java",
+            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/data/Product.java",
+            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/ProductEditDialogActivity.java",
+            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/MainActivity.java",
             "/home/baka/dotfiles/bash/.bashrc",
             "/home/baka/.config/trashrc",
             "/home/baka/.config/TeXstudiorc",
@@ -523,8 +554,8 @@
             "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/metadata.json",
             "/home/baka/.mozilla/firefox/xw9yngde.default/chrome/userChrome.css",
             "/home/baka/.mozilla/firefox/profiles.ini",
-            "/nfs/cloud/setup/linux/virtualization/README.md",
-            "/home/baka/dotfiles/kde-dolphin/.config/dolphinrc"
+            "/nfs/cloud/setup/linux/virtualization/README.md"
         ]
-    }
+    },
+    "pickerWorkingDir": "/nfs/cloud/dev/deepwater/deepwater/utils"
 }
