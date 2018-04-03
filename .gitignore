@@ -1,9 +1,3 @@
- vscode/.config/Code/Cache
- vscode/.config/Code/Backups
- vscode/.config/Code/GPUCache
- vscode/.config/Code/Local\ Storage
- vscode/.config/Code/logs
- vscode/.config/Code/Cookies
 vscode/\.config/Code/CachedExtensions/
 
 vscode/\.config/Code/CachedData/
@@ -13,3 +7,17 @@ vscode/\.config/Code/machineid
 vscode/\.config/Code/Cookies-journal
 
 vscode/\.config/Code/User/workspaceStorage/
+
+vscode/\.config/Code/Backups/
+
+vscode/\.config/Code/Cache/
+
+vscode/\.config/Code/GPUCache/
+
+vscode/\.config/Code/Local Storage/
+
+vscode/\.config/Code/logs/
+
+vscode/\.config/Code/Cookies
+
+vscode/\.config/Code/Preferences

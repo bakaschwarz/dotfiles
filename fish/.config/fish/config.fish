@@ -17,3 +17,7 @@ function update
         svn update .
     end
 end
+
+#alias edit_fish="micro ~/.config/fish/config.fish"
+
+#alias open_ports="sudo ss -plnt"

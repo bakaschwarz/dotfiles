@@ -63,7 +63,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+Shift+W",
+            "label": "Ctrl+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -442,12 +442,13 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/home/baka/.config/Code/Backups/1522189031617",
+            "folderPath": "/home/baka/dotfiles/vscode",
+            "backupPath": "/home/baka/.config/Code/Backups/3bc60f373adf48d6ef6816581dfc2b3a",
             "uiState": {
-                "mode": 0,
-                "x": 1920,
+                "mode": 1,
+                "x": 1720,
                 "y": 67,
-                "width": 3440,
+                "width": 1714,
                 "height": 1373
             }
         }
@@ -455,6 +456,10 @@
     "openedPathsList": {
         "workspaces": [],
         "files": [
+            "/home/baka/dotfiles/.gitignore",
+            "/home/baka/dotfiles/vscode/.config/Code/Preferences",
+            "/nfs/repos/ccm_ng/build-site.sh",
+            "/nfs/repos/ccm_ng/ccm-readme.txt",
             "/nfs/downloads/Science Fiction/Varley, John/Varley, John - The Golden Globe.txt",
             "/home/baka/dotfiles/kde-desktop/.kde4/share/apps/color-schemes/Breath.colors",
             "/nfs/repos/ccm_ng/ccm.sh",
@@ -550,11 +555,7 @@
             "/nfs/repos/trunk/local.ccm.properties",
             "/nfs/repos/trunk/local.build.properties",
             "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/contents/components/artwork/README.txt",
-            "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/metadata.desktop",
-            "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/metadata.json",
-            "/home/baka/.mozilla/firefox/xw9yngde.default/chrome/userChrome.css",
-            "/home/baka/.mozilla/firefox/profiles.ini",
-            "/nfs/cloud/setup/linux/virtualization/README.md"
+            "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/metadata.desktop"
         ]
     },
     "pickerWorkingDir": "/nfs/cloud/dev/deepwater/deepwater/utils"
