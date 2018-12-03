@@ -1,9 +1,35 @@
+[Containments][1][General]
+AppletOrder=3;50;5;6;7;8;49
+
+[Containments][147][General]
+AppletOrder=148;149;150;151;152;154
+
+[Containments][153][General]
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
+
 [Containments][52][General]
 AppletOrder=53;54;55;56;57;59
 
 [Containments][58][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect
+
+[Containments][69][General]
+AppletOrder=75;73;78;71;81;72;74;80;84;82;79;76;77;88;89
+
+[Containments][8][General]
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.keyboardindicator
+hiddenItems=org.kde.plasma.printmanager,org.kde.kdeconnect
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.keyboardindicator
+shownItems=Nextcloud,org.kde.plasma.volume,octopi-notifier,TelegramDesktop
+
+[Containments][92][General]
+ToolBoxButtonState=left
+ToolBoxButtonY=30
+
+[Containments][96][General]
+url=/lol
 
 [DownloadDialog Settings]
 Height 1440=522
@@ -17,12 +43,18 @@ Width 1920=881
 Width 3440=881
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Bilder/wallpaper/Anime/682350.jpg,file:$HOME/Bilder/wallpaper/DDLC/Desktop/07.png,file:$HOME/Bilder/wallpaper/Anime/serveimage.jpg,file:$HOME/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:$HOME/Bilder/wallpaper/Anime/wallhaven-614418.jpg,file:$HOME/Bilder/wallpaper/Anime/1453616251692.png,file:$HOME/Bilder/wallpaper/Anime/765058.jpg,file:$HOME/Bilder/wallpaper/Anime/736039.png,file:$HOME/Bilder/wallpaper/Anime/682365.jpg
-Recent URLs[$e]=file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/,file:$HOME/Bilder/,file:$HOME/Bilder/wallpaper/DDLC/Desktop/
+Recent Files[$e]=file:$HOME/Bilder/wallpaper/Anime/682350.jpg,file:$HOME/Bilder/wallpaper/Anime/1407862526024.jpg,file:$HOME/Bilder/wallpaper/Anime/739397.jpg,file:$HOME/Bilder/wallpaper/Simple/wallhaven-665787.png,file:$HOME/Bilder/wallpaper/Anime/820185.jpg,file:$HOME/Bilder/wallpaper/DDLC/Desktop/07.png,file:$HOME/Bilder/wallpaper/Anime/serveimage.jpg,file:$HOME/Bilder/wallpaper/Anime/muvluv-alternative-wallpaper-19.jpg,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:$HOME/Bilder/wallpaper/Anime/wallhaven-614418.jpg,file:$HOME/Bilder/wallpaper/Anime/1453616251692.png,file:$HOME/Bilder/wallpaper/Anime/765058.jpg,file:$HOME/Bilder/wallpaper/Anime/736039.png,file:$HOME/Bilder/wallpaper/Anime/682365.jpg
+Recent URLs[$e]=file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/,file:$HOME/Bilder/,file:$HOME/Bilder/wallpaper/DDLC/Desktop/,file:$HOME/Repositories/adv/,file:$HOME/Bilder/wallpaper/Simple/
 
 [KPropertiesDialog]
-Height 1440=456
-Width 3440=473
+Height 1440=496
+Width 3440=743
+
+[PIMEventsPlugin]
+calendars=16
+
+[PlasmaViews][Panel 1][Horizontal0]
+thickness=30
 
 [PlasmaViews][Panel 1][Horizontal1024]
 thickness=45
@@ -72,12 +104,50 @@ thickness=45
 [PlasmaViews][Panel 1][Horizontal864]
 thickness=45
 
+[PlasmaViews][Panel 104][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 104][Horizontal3440]
+maxLength=3440
+minLength=3440
+thickness=36
+
+[PlasmaViews][Panel 124]
+alignment=132
+panelVisibility=1
+
+[PlasmaViews][Panel 124][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 124][Horizontal3440]
+maxLength=1922
+minLength=1902
+thickness=94
+
+[PlasmaViews][Panel 124][Vertical1440]
+thickness=30
+
+[PlasmaViews][Panel 147][Vertical1440]
+thickness=48
+
+[PlasmaViews][Panel 164][Horizontal3440]
+thickness=378
+
+[PlasmaViews][Panel 164][Vertical1440]
+thickness=44
+
 [PlasmaViews][Panel 52][Horizontal3440]
 thickness=39
 
 [PlasmaViews][Panel 69]
 alignment=132
 panelVisibility=1
+
+[PlasmaViews][Panel 69][Horizontal0]
+thickness=30
+
+[PlasmaViews][Panel 69][Horizontal1720]
+thickness=30
 
 [PlasmaViews][Panel 69][Horizontal1920]
 thickness=30
@@ -86,8 +156,8 @@ thickness=30
 thickness=30
 
 [PlasmaViews][Panel 69][Horizontal3440]
-maxLength=1308
-minLength=1306
+maxLength=1466
+minLength=1432
 offset=0
 thickness=94
 

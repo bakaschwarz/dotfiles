@@ -1,6 +1,21 @@
+[FileDialogSize]
+Height 1440=480
+Width 3440=640
+
+[General]
+last-saved-to[$e]=$HOME/Bilder
+lastSaveAsLocation=file:///home/baka/
+
 [GuiConfig]
+captureDelay=0
 captureModeIndex=4
-cropRegion=230,280,1459,31
+cropRegion=2785,573,839,532
 includeDecorations=true
 includePointer=false
-window-position=2523,556
+lastUsedSaveMode=1
+quitAfterSaveCopyExport=false
+window-position=4330,952
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Screenshot_20180821_122139.png,file:$HOME/Screenshot_20180821_122139.png
+Recent URLs[$e]=file:$HOME/Bilder/

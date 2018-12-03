@@ -1,4 +1,25 @@
 [1]
+Description=Programm-Einstellungen für krita
+above[$d]
+aboverule[$d]
+clientmachine=localhost
+clientmachinematch=0
+desktop[$d]
+desktoprule[$d]
+maximizevert[$d]
+maximizevertrule[$d]
+noborder[$d]
+noborderrule[$d]
+placement=Centered
+placementrule=2
+size=2304,1400
+sizerule=2
+types=3
+wmclass=krita
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
 Description=Programm-Einstellungen für mpv
 above=true
 aboverule=3
@@ -8,11 +29,15 @@ desktop=-1
 desktoprule=3
 noborder=true
 noborderrule=3
+placement[$d]
+placementrule[$d]
+screen[$d]
+screenrule[$d]
 wmclass=gl mpv
 wmclasscomplete=true
 wmclassmatch=1
 
-[2]
+[3]
 Description=Alle Fenster starten auf dem richtigen Bildschirm.
 placement=Centered
 placementrule=2
@@ -29,7 +54,7 @@ dir_pixmap[$d]
 BrowserApplication[$d]
 ColorScheme[$d]
 Name[$d]
-count=2
+count=3
 fixed[$d]
 font[$d]
 menuFont[$d]

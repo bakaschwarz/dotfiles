@@ -1,25 +1,27 @@
 [$Version]
-update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry
 
 [ColorEffects:Disabled]
-Color=
-ColorAmount=
-ColorEffect=
-ContrastAmount=
-ContrastEffect=
-IntensityAmount=
-IntensityEffect=
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=
-ColorAmount=
-ColorEffect=
-ContrastAmount=
-ContrastEffect=
+Color=112,111,110
+ColorAmount=-0.95000000000000007
+ColorEffect=0
+ContrastAmount=0.10000000000000001
+ContrastEffect=0
 Enable=false
-IntensityAmount=
-IntensityEffect=
+IntensityAmount=0
+IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=224,223,222
@@ -144,15 +146,19 @@ DisabledValue=1
 Size=32
 
 [DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:///nfs/cloud
+DirSelectDialog Size=881,602
+History Items[$e]=file:///plex_data/torrents,file:///plex_data,file:///plex_data/anime_series/Toaru Majutsu no Index III,file:$HOME,file:$HOME/Repositories/trunk,file:$HOME,file:$HOME/Repositories/adv,file:///nfs,file:///nfs/cloud
+
+[Emoticons]
+emoticonsTheme=Konqi
+parseMode=2
 
 [General]
 ColorScheme=Breath Dark
 Name=Breath
 TerminalApplication[$e]=konsole
 XftAntialias=true
-XftHintStyle=hintfull
+XftHintStyle=
 XftSubPixel=rgb
 dbfile=/home/baka/.mozilla/firefox/xw9yngde.default/places.sqlite
 fixed=Fira Code,9,-1,5,50,0,0,0,0,0,Regular
@@ -169,6 +175,8 @@ Theme=breath
 DoubleClickInterval=400
 LookAndFeelPackage=org.kde.breath.desktop
 ShowDeleteCommand=false
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
 SingleClick=false
 StartDragDist=4
 StartDragTime=500
@@ -182,21 +190,24 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Previews=true
+Preview Width=215
+Previews[$d]
 Show Bookmarks=false
 Show Full Path=false
-Show Preview=false
+Show Inline Previews=true
+Show Preview=true
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=181
-View Style=Simple
+Speedbar Width=194
+View Style=Tree
+detailedViewIconSize=5
 listViewIconSize=78
 
 [KShortcutsDialog Settings]
-Dialog Size=631,480
+Dialog Size=679,480
 
 [MainToolbarIcons]
 ActiveColor=169,156,255
@@ -257,6 +268,10 @@ DisabledEffect=togray
 DisabledSemiTransparent=true
 DisabledValue=1
 Size=16
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [ToolbarIcons]
 ActiveColor=169,156,255

@@ -16,12 +16,12 @@ DefaultProfile=Profile 1.profile
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=22
+PreviewSize=16
 
 [DownloadDialog Settings]
 Height 1050=514
 Height 1080=522
-Height 1440=540
+Height 1440=538
 Width 1680=700
 Width 1920=700
 Width 3440=700
@@ -42,7 +42,7 @@ ViewPropsTimestamp=2016,8,22,14,30,21
 [IconsMode]
 FontWeight=50
 IconSize=96
-PreviewSize=96
+PreviewSize=80
 
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/cloud/setup/linux/files_root/home/baka/.fonts/
@@ -51,31 +51,32 @@ Recent URLs[$e]=file:$HOME/cloud/setup/linux/files_root/home/baka/,file:$HOME/cl
 [KPropertiesDialog]
 Height 1050=456
 Height 1080=502
-Height 1440=526
+Height 1440=494
 Width 1680=657
 Width 1920=796
-Width 3440=711
+Width 3440=444
 
 [MainWindow]
 Height 1050=673
-Height 1080=1007
-Height 1440=1373
+Height 1080=1019
+Height 1440=1019
 Height 2160=865
 Height 768=688
 Height 900=480
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADsAAAEOfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAAEGAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABAAAAEOQAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAGsgAAAOP8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAGsgAAAAoBAAADAAAFxQAABDkAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAFmAAACdfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAAEGAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABAAAACdQAAAFoBAAADAAAAAQAAAMAAAAJ1/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAEAAAAJ1AAABEAEAAAMAAAADAAAGfAAAAUX8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAGfAAAABgBAAADAAAEVAAAAnUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1024=1278
 Width 1600=640
 Width 1680=1278
-Width 1720=954
-Width 1920=954
+Width 1720=1912
+Width 1920=1660
 Width 2560=1359
-Width 3440=1714
+Width 3440=1660
 Width 3840=1282
 Window-Maximized 1050x1680=true
 Window-Maximized 1080x1920=false
+Window-Maximized 1440x1720=false
 Window-Maximized 1440x3440=false
 Window-Maximized 900x1600=true
 
@@ -85,7 +86,7 @@ ToolButtonStyle=IconOnly
 
 [Open-with settings]
 CompletionMode=5
-History=qbit,code,mpv,/opt/visual-studio-code/code %f,okular,clementine,gimp,/usr/bin/google-chrome-stable %U,okular %U %i -caption %c,/usr/share/atom/atom %F,vlc,kwrite,kwrite %U,chromium-browser %U
+History=code,mpv,ark,qbit,/opt/visual-studio-code/code %f,okular,clementine,gimp,/usr/bin/google-chrome-stable %U,okular %U %i -caption %c,/usr/share/atom/atom %F,vlc,kwrite,kwrite %U,chromium-browser %U
 
 [PlacesPanel]
 IconSize=48
@@ -94,15 +95,15 @@ IconSize=48
 Plugins=audiothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,directorythumbnail,svgthumbnail,ffmpegthumbs
 
 [Search]
-What=Content
+What=FileName
 
 [SettingsDialog]
 Height 1050=464
 Height 1080=460
-Height 1440=493
+Height 1440=502
 Width 1680=711
 Width 1920=667
-Width 3440=675
+Width 3440=784
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
@@ -112,6 +113,6 @@ enabledPlugins=Git
 
 [ViewPropertiesDialog]
 Height 1080=490
-Height 1440=490
+Height 1440=326
 Width 1920=394
-Width 3440=447
+Width 3440=480

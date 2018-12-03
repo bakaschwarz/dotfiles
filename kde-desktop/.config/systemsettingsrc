@@ -1,24 +1,24 @@
 [DownloadDialog Settings]
-Height 1440=550
+Height 1440=538
 Width 3440=700
 
 [FileDialogSize]
-Height 1440=480
-Width 3440=640
+Height 1440=842
+Width 3440=1163
 
 [KFileDialog Settings]
-Recent Files[$e]=avatar.png,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:///nfs/cloud/images/personal/avatar.png
-Recent URLs[$e]=file:///nfs/cloud/images/personal/,file:///nfs/cloud/images/,file:$HOME/Bilder/wallpaper/Anime/,file:$HOME/Bilder/wallpaper/
+Recent Files[$e]=avatar.png,file:$HOME/Downloads/Helium.tar.gz,file:$HOME/Bilder/wallpaper/Anime/R8uaNGN.jpg,file:///nfs/cloud/images/personal/avatar.png
+Recent URLs[$e]=file:$HOME/Downloads/
 
 [MainWindow]
-Height 1080=480
-Height 1440=691
+Height 1080=700
+Height 1440=700
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABAAAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1720=640
-Width 1920=640
-Width 3440=1454
+Width 1920=1024
+Width 3440=1024
 Window-Maximized 1080x1920=false
 Window-Maximized 1440x1720=true
 Window-Maximized 1440x3440=false

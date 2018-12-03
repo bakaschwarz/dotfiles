@@ -1,6 +1,13 @@
 [$Version]
 update_info=powerdevil_move_shortcuts.upd:powerdevil_move_shortcuts
 
+[ActivityManager]
+_k_friendly_name=Aktivitätenverwaltung
+switch-to-activity-1545b387-31cc-40b7-8b00-ca8cee0ea29a=none,none,Zu Aktivität „DST“ wechseln
+switch-to-activity-1fd9eb11-e5a9-4c97-9632-7dcb07beeb82=none,none,Zu Aktivität „Casual“ wechseln
+switch-to-activity-3e90ae41-4418-43ac-a607-0efe42f106e3=none,none,Zu Aktivität „Fokus“ wechseln
+switch-to-activity-4fb0c27b-f05e-413b-9ab2-140dc46ee044=none,none,Zu Aktivität „LibreCCM“ wechseln
+
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Auf nächste Tastaturbelegung umschalten
 _k_friendly_name=KDE Daemon
@@ -35,6 +42,7 @@ _k_friendly_name=KDE Daemon
 {4fcacb26-1356-4461-8930-d911fbfe6b63}=Print,none,Bildschirmfoto-Programm starten
 {9e39d4a7-5796-4be1-bb92-9fd19ce35c18}=Shift+Print,none,Bildschirmfoto des ganzen Bildschirms aufnehmen
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search,none,Suchen
+{d45cb534-8f1c-4c7b-9035-1f343923ddaf}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Lautstärke
@@ -71,10 +79,10 @@ KWin Script: Sticky Window Snapping: enable/disable temporarily=Ctrl+Shift+S,non
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Fenster beseitigen
 MoveMouseToCenter=Meta+F6,Meta+F6,Mauszeiger zentrieren
 MoveMouseToFocus=Meta+F5,Meta+F5,Mauszeiger in den Fokus verschieben
-MoveZoomDown=Meta+Down,Meta+Down,Vergrößerten Bereich nach unten verschieben
-MoveZoomLeft=Meta+Left,Meta+Left,Vergrößerten Bereich nach links verschieben
-MoveZoomRight=Meta+Right,Meta+Right,Vergrößerten Bereich nach rechts verschieben
-MoveZoomUp=Meta+Up,Meta+Up,Vergrößerten Bereich nach oben verschieben
+MoveZoomDown=Meta+Down,none,Vergrößerten Bereich nach unten verschieben
+MoveZoomLeft=Meta+Left,none,Vergrößerten Bereich nach links verschieben
+MoveZoomRight=Meta+Right,none,Vergrößerten Bereich nach rechts verschieben
+MoveZoomUp=Meta+Up,none,Vergrößerten Bereich nach oben verschieben
 Remove Window From Group=none,none,Fenster aus Gruppe herauslösen
 Setup Window Shortcut=none,none,Kurzbefehl für Fenster einrichten
 Show Desktop=none,none,Arbeitsfläche anzeigen
@@ -142,10 +150,10 @@ Window Fullscreen=none,none,Fenster auf Vollbildgröße
 Window Grow Horizontal=none,none,Fenster zum linken Bildschirmrand ausdehnen
 Window Grow Vertical=none,none,Fenster zum oberen Bildschirmrand ausdehnen
 Window Lower=none,none,Fenster nach hinten
-Window Maximize=none,none,Fenster maximieren
+Window Maximize=none,Meta+PgUp,Fenster maximieren
 Window Maximize Horizontal=none,none,Fenster waagerecht maximieren
 Window Maximize Vertical=none,none,Fenster senkrecht maximieren
-Window Minimize=none,none,Fenster minimieren
+Window Minimize=none,Meta+PgDown,Fenster minimieren
 Window Move=none,none,Fenster verschieben
 Window No Border=none,none,Fensterumrandung ausblenden
 Window On All Desktops=none,none,Fenster auf allen Arbeitsflächen anzeigen
@@ -158,12 +166,12 @@ Window Pack Down=none,none,Fenster bündig mit unterem Bildschirmrand
 Window Pack Left=none,none,Fenster bündig mit linkem Bildschirmrand
 Window Pack Right=none,none,Fenster bündig mit rechtem Bildschirmrand
 Window Pack Up=none,none,Fenster bündig mit oberem Bildschirmrand
-Window Quick Tile Bottom=none,none,Fenster am unteren Bildschirmrand anordnen
+Window Quick Tile Bottom=none,Meta+Down,Fenster am unteren Bildschirmrand anordnen
 Window Quick Tile Bottom Left=none,none,Fenster am linken unteren Bildschirmrand anordnen
 Window Quick Tile Bottom Right=none,none,Fenster am rechten unteren Bildschirmrand anordnen
-Window Quick Tile Left=none,none,Fenster am linken Bildschirmrand anordnen
-Window Quick Tile Right=none,none,Fenster am rechten Bildschirmrand anordnen
-Window Quick Tile Top=none,none,Fenster am oberen Bildschirmrand anordnen
+Window Quick Tile Left=none,Meta+Left,Fenster am linken Bildschirmrand anordnen
+Window Quick Tile Right=none,Meta+Right,Fenster am rechten Bildschirmrand anordnen
+Window Quick Tile Top=none,Meta+Up,Fenster am oberen Bildschirmrand anordnen
 Window Quick Tile Top Left=none,none,Fenster am linken oberen Bildschirmrand anordnen
 Window Quick Tile Top Right=none,none,Fenster am rechten oberen Bildschirmrand anordnen
 Window Raise=none,none,Fenster nach vorne
@@ -242,6 +250,8 @@ show-on-mouse-pos=none,none,Klipper an Mausposition öffnen
 
 [mediacontrol]
 _k_friendly_name=Mediensteuerung
+mediavolumedown=none,none,Medienspieler leiser
+mediavolumeup=none,none,Medienspieler lauter
 nextmedia=Media Next,Media Next,Nächstes Medium wiedergeben
 playpausemedia=Media Play,Media Play,Medienwiedergabe starten/anhalten
 previousmedia=Media Previous,Media Previous,Vorheriges Medium wiedergeben
@@ -283,6 +293,17 @@ show dashboard=Ctrl+F12,Ctrl+F12,Arbeitsfläche anzeigen
 show-barcode=none,none,Strichcode anzeigen ...
 show-on-mouse-pos=none,none,Klipper an Mausposition öffnen
 stop current activity=Meta+S,Meta+S,Aktuelle Aktivität anhalten
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Bildschirmfüllend abbilden
+Map to screen 1=,Meta+Ctrl+1,Auf Bildschirm 1 abbilden
+Map to screen 2=,Meta+Ctrl+2,Auf Bildschirm 2 abbilden
+Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Nächstes Profil
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Voriges Profil
+Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Zwischen allen Bildschirmen umschalten
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Funktionsweise des Stift-Werkzeugs zwischen relativ/absolut umschalten
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Touch-Werkzeug aktivieren/deaktivieren
+_k_friendly_name=Wacom-Tablett
 
 [yakuake]
 _k_friendly_name=Yakuake

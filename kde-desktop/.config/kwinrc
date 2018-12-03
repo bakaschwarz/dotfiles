@@ -1,8 +1,11 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale
+
 [Compositing]
 AnimationSpeed=3
 Backend=OpenGL
 Enabled=true
-GLCore=false
+GLCore=true
 GLPreferBufferSwap=p
 GLTextureFilter=2
 HiddenPreviews=5
@@ -11,32 +14,28 @@ WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
-Name_1=Eins
-Name_2=Zwei
-Name_3=Drei
-Name_4=Vier
+Name_1=I
+Name_2=II
+Name_3=III
+Name_4=IV
 Number=4
 Rows=1
 
 [Plugins]
+activatelattelaunchermenuEnabled=false
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
 enforcedecoEnabled=true
 kwin4_effect_fadedesktopEnabled=false
 minimizeallEnabled=false
-slideEnabled=true
+slideEnabled=false
 sticky-window-snappingEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 
 [Script-desktopchangeosd]
-PopupHideDelay=1000
+PopupHideDelay=200
 TextOnly=false
-
-[TabBox]
-DesktopLayout=org.kde.breeze.desktop
-DesktopListLayout=org.kde.breeze.desktop
-LayoutName=org.kde.breeze.desktop
 
 [Windows]
 RollOverDesktops=true
@@ -44,6 +43,6 @@ RollOverDesktops=true
 [org.kde.kdecoration2]
 BorderSize=Normal
 ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
+ButtonsOnRight=SIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze

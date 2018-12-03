@@ -89,6 +89,7 @@ Color=26,188,156
 Color=26,188,156
 
 [General]
+Blur=true
 Description=Maia
-Opacity=0.9
+Opacity=0.85
 Wallpaper=
