@@ -1,4 +1,5 @@
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH:/home/baka/bin/cuda/
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -113,4 +114,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-fish
+exec fish
