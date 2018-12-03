@@ -2,7 +2,7 @@
 set fish_greeting ""
 
 # Add Go binaries to PATH
-set PATH $PATH $HOME/.go/bin
+set PATH $PATH $HOME/.go/bin $HOME/.config/composer/vendor/bin/
 
 # functions
 
@@ -16,6 +16,15 @@ function update
     if [ $status = 128 ]
         svn update .
     end
+end
+
+function libreccm
+    
+end
+
+function tablet
+    xsetwacom set 10 MapToOutput 2304x1440+2396+0
+    xsetwacom set 22 MapToOutput 2304x1440+2396+0
 end
 
 #alias edit_fish="micro ~/.config/fish/config.fish"
