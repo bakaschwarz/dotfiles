@@ -11,11 +11,22 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
     "editor.smoothScrolling": true,
     "php.suggest.basic": false,
     "emmet.includeLanguages": {
         "blade":    "html"
     },
     "emmet.triggerExpansionOnTab": true,
-    "java.errors.incompleteClasspath.severity": "ignore"
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "extensions.ignoreRecommendations": false,
+    "vsicons.projectDetection.autoReload": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        
+    },
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false
 }

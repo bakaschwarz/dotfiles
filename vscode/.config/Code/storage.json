@@ -36,8 +36,8 @@
             "label": "Ctrl+Shift+S",
             "isNative": true
         },
-        "workbench.action.openGlobalSettings": {
-            "id": "workbench.action.openGlobalSettings",
+        "workbench.action.openSettings": {
+            "id": "workbench.action.openSettings",
             "label": "STRG+,",
             "isNative": false
         },
@@ -63,7 +63,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -201,6 +201,11 @@
             "label": "Shift+Alt+Left",
             "isNative": true
         },
+        "workbench.action.showCommands": {
+            "id": "workbench.action.showCommands",
+            "label": "Ctrl+Shift+P",
+            "isNative": true
+        },
         "workbench.view.explorer": {
             "id": "workbench.view.explorer",
             "label": "Ctrl+Shift+E",
@@ -246,11 +251,6 @@
             "label": "Ctrl+Shift+M",
             "isNative": true
         },
-        "workbench.action.showCommands": {
-            "id": "workbench.action.showCommands",
-            "label": "Ctrl+Shift+P",
-            "isNative": true
-        },
         "workbench.action.toggleFullScreen": {
             "id": "workbench.action.toggleFullScreen",
             "label": "F11",
@@ -261,11 +261,6 @@
             "label": "STRG+K Z",
             "isNative": false
         },
-        "workbench.action.toggleEditorGroupLayout": {
-            "id": "workbench.action.toggleEditorGroupLayout",
-            "label": "Shift+Alt+0",
-            "isNative": true
-        },
         "workbench.action.toggleSidebarVisibility": {
             "id": "workbench.action.toggleSidebarVisibility",
             "label": "Ctrl+B",
@@ -274,11 +269,6 @@
         "workbench.action.togglePanel": {
             "id": "workbench.action.togglePanel",
             "label": "Ctrl+J",
-            "isNative": true
-        },
-        "editor.action.toggleWordWrap": {
-            "id": "editor.action.toggleWordWrap",
-            "label": "Alt+Z",
             "isNative": true
         },
         "workbench.action.zoomIn": {
@@ -295,6 +285,16 @@
             "id": "workbench.action.zoomReset",
             "label": "STRG+NumPad0",
             "isNative": false
+        },
+        "workbench.action.toggleEditorGroupLayout": {
+            "id": "workbench.action.toggleEditorGroupLayout",
+            "label": "Shift+Alt+0",
+            "isNative": true
+        },
+        "editor.action.toggleWordWrap": {
+            "id": "editor.action.toggleWordWrap",
+            "label": "Alt+Z",
+            "isNative": true
         },
         "workbench.action.navigateBack": {
             "id": "workbench.action.navigateBack",
@@ -341,14 +341,34 @@
             "label": "Ctrl+3",
             "isNative": true
         },
-        "workbench.action.focusNextGroup": {
-            "id": "workbench.action.focusNextGroup",
+        "workbench.action.focusFourthEditorGroup": {
+            "id": "workbench.action.focusFourthEditorGroup",
+            "label": "Ctrl+4",
+            "isNative": true
+        },
+        "workbench.action.focusFifthEditorGroup": {
+            "id": "workbench.action.focusFifthEditorGroup",
+            "label": "Ctrl+5",
+            "isNative": true
+        },
+        "workbench.action.focusLeftGroup": {
+            "id": "workbench.action.focusLeftGroup",
+            "label": "STRG+K STRG+LeftArrow",
+            "isNative": false
+        },
+        "workbench.action.focusRightGroup": {
+            "id": "workbench.action.focusRightGroup",
             "label": "STRG+K STRG+RightArrow",
             "isNative": false
         },
-        "workbench.action.focusPreviousGroup": {
-            "id": "workbench.action.focusPreviousGroup",
-            "label": "STRG+K STRG+LeftArrow",
+        "workbench.action.focusAboveGroup": {
+            "id": "workbench.action.focusAboveGroup",
+            "label": "STRG+K STRG+UpArrow",
+            "isNative": false
+        },
+        "workbench.action.focusBelowGroup": {
+            "id": "workbench.action.focusBelowGroup",
+            "label": "STRG+K STRG+DownArrow",
             "isNative": false
         },
         "workbench.action.quickOpen": {
@@ -426,8 +446,8 @@
             "label": "F9",
             "isNative": true
         },
-        "editor.debug.action.toggleColumnBreakpoint": {
-            "id": "editor.debug.action.toggleColumnBreakpoint",
+        "editor.debug.action.toggleInlineBreakpoint": {
+            "id": "editor.debug.action.toggleInlineBreakpoint",
             "label": "Shift+F9",
             "isNative": true
         },
@@ -437,126 +457,110 @@
             "isNative": true
         }
     },
-    "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json",
-    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/nfs/repos",
+    "openedPathsList": {
+        "workspaces2": [
+            {
+                "id": "16d1c9764cfb6771cacc33225dec3923",
+                "configPath": "/nfs/cloud/dev/dont_starve/vsc.code-workspace"
+            },
+            "file:///nfs/repos/trunk.old",
+            "file:///nfs/repos/trunk",
+            {
+                "id": "fc3c741d511ac6d99720c6953cb5e262",
+                "configPath": "/nfs/cloud/dev/deepwater/code.code-workspace"
+            },
+            "file:///nfs/cloud/dev/deepwater",
+            "file:///nfs/cloud/dev/deepwater/webapp",
+            {
+                "id": "4667c135723e61d50e1d2299278414b5",
+                "configPath": "/nfs/cloud/dev/deepwater/webapp/code_workplace.code-workspace"
+            }
+        ],
+        "files": [
+            "/server_steam/golden_cage.sh",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/Master/server_log.txt",
+            "/server_steam/dontstarvetogether_dedicated_server/mods/cage_exclusive/modmain.lua",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/Caves/server_log.txt",
+            "/nfs/SteamLibrary/steamapps/common/Don't Starve Together/data/log.txt",
+            "/server_steam/dontstarvetogether_dedicated_server/data/log.txt",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/cluster.ini",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/Master/modoverrides.lua",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_3/Master/server_log.txt",
+            "/server_steam/xaa",
+            "/server_steam/screen_test.sh",
+            "/nfs/repos/trunk.old/ccm-cms/web/assets/tinymce/tinymce_cms_config.js",
+            "/nfs/repos/trunk.old/ccm-cms/web/assets/xinha/CCMcmsXinhaConfig.js",
+            "/nfs/repos/trunk.old/ccm-cms-bundle/bundles/local/my-devel/cfg/integration.properties",
+            "/nfs/repos/trunk.old/runtime/apache-tomcat-8.5.15/webapps/ROOT/WEB-INF/conf/registry/ccm-core/bebop.properties",
+            "/nfs/repos/trunk.old/runtime/apache-tomcat-8.5.15/webapps/ROOT/WEB-INF/conf/registry/ccm-cms/cms.properties",
+            "/nfs/repos/trunk/ccm-sci-bundle/bundles/local/my-devel/cfg/integration.properties",
+            "/nfs/repos/trunk/ccm-sci-bundle/bundles/local/README",
+            "/nfs/repos/trunk/local.build.properties",
+            "/server_steam/wonderland.sh",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/Master/server.ini",
+            "/server_steam/.klei/DoNotStarveTogether/newworld/cluster.ini",
+            "/server_steam/.klei/DoNotStarveTogether/newworld/Master/server_log.txt",
+            "/server_steam/.klei/DoNotStarveTogether/newworld/Master/modoverrides.lua",
+            "/server_steam/run_bakasgoldencage.sh",
+            "/server_steam/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua",
+            "/server_steam/test",
+            "/nfs/cloud/docs/libreccm/finished_regexes",
+            "/nfs/cloud/docs/libreccm/regex.txt",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_3/Master/server.ini",
+            "/nfs/cloud/dev/dont_starve/mods/molehill/modmain.lua",
+            "/home/baka/.klei/DoNotStarveTogether/client_log.txt",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/adminlist.txt",
+            "/server_steam/dontstarvetogether_dedicated_server/mods/cage_exclusive/modinfo.lua",
+            "/server_steam/dontstarvetogether_dedicated_server/mods/ownership_iceboxes/modmain.lua",
+            "/server_steam/dontstarvetogether_dedicated_server/data/ranks.txt",
+            "/server_steam/dontstarvetogether_dedicated_server/data/permissions.txt",
+            "/server_steam/.klei/DoNotStarveTogether/bakasgoldencage/cluster_token.txt",
+            "/tmp/mozilla_baka0/cluster_token-2.txt",
+            "/tmp/mozilla_baka0/cluster_token-1.txt",
+            "/tmp/mozilla_baka0/cluster_token.txt",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_4/cluster.ini",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_4/Master/server_log.txt",
+            "/home/baka/.kde_wallpaper_blur/wpblur.sh",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_5/Master/server_log.txt",
+            "/home/baka/.klei/DoNotStarveTogether/45580484/Cluster_5/cluster.ini",
+            "/nfs/SteamLibrary/steamapps/common/Don't Starve Together Dedicated Server/bin/scripts/launch_preconfigured_servers.sh",
+            "/nfs/SteamLibrary/steamapps/common/Don't Starve Together Dedicated Server/bin/scripts/launch_dedicated_server.sh",
+            "/media/veracrypt1/server/docs/Passwörter.txt",
+            "/nfs/repos/trunk/ccm-cms/web/assets/tinymce/tinymce_cms_config.js",
+            "/nfs/downloads/Telegram Desktop/modoverrides.lua",
+            "/nfs/SteamLibrary/steamapps/common/CrossCode/assets/data/enemies/hedgehog.json",
+            "/home/baka/watch_onepiece.sh",
+            "/home/baka/dotfiles/mpv/.config/mpv/mpv.conf",
+            "/tmp/mozilla_baka0/nightaxe.lua",
+            "/home/baka/plex.py",
+            "/nfs/SteamLibrary/steamapps/common/Don't Starve Together/mods/workshop-939576897/modmain.lua",
+            "/nfs/downloads/librarymanager.lua",
+            "/nfs/repos/trunk/local.ccm.properties",
+            "/nfs/repos/trunk/local.runtime.properties",
+            "/nfs/repos/trunk/rebuild.sh",
+            "/nfs/cloud/dev/dont_starve/leveldataoverride.lua",
+            "/tmp/mozilla_baka0/server_log(master).txt",
+            "/tmp/mozilla_baka0/server_log(caves).txt"
+        ]
+    },
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/home/baka/dotfiles/vscode",
-            "backupPath": "/home/baka/.config/Code/Backups/3bc60f373adf48d6ef6816581dfc2b3a",
+            "workspace": {
+                "id": "16d1c9764cfb6771cacc33225dec3923",
+                "configPath": "/nfs/cloud/dev/dont_starve/vsc.code-workspace"
+            },
+            "backupPath": "/home/baka/.config/Code/Backups/16d1c9764cfb6771cacc33225dec3923",
             "uiState": {
                 "mode": 1,
-                "x": 1720,
+                "x": 1443,
                 "y": 67,
-                "width": 1714,
+                "width": 1919,
                 "height": 1373
             }
         }
     },
-    "openedPathsList": {
-        "workspaces": [],
-        "files": [
-            "/home/baka/dotfiles/.gitignore",
-            "/home/baka/dotfiles/vscode/.config/Code/Preferences",
-            "/nfs/repos/ccm_ng/build-site.sh",
-            "/nfs/repos/ccm_ng/ccm-readme.txt",
-            "/nfs/downloads/Science Fiction/Varley, John/Varley, John - The Golden Globe.txt",
-            "/home/baka/dotfiles/kde-desktop/.kde4/share/apps/color-schemes/Breath.colors",
-            "/nfs/repos/ccm_ng/ccm.sh",
-            "/nfs/cloud/scripts/ds",
-            "/nfs/cloud/dev/deepwater/deepwater/utils/file.py",
-            "/nfs/repos/ccm_ng/README.txt",
-            "/home/baka/wildfly/standalone/configuration/mgmt-users.properties",
-            "/home/baka/wildfly/bin/domain.conf",
-            "/home/baka/wildfly/bin/standalone.conf",
-            "/nfs/downloads/cvxycv.json",
-            "/nfs/cloud/Notes/libreccmmeeting.txt",
-            "/nfs/repos/trunk/ccm-core/src/log4j2.xml",
-            "/nfs/cloud/dev/dont_starve/mods/glace/scripts/prefabs/glace.lua",
-            "/nfs/cloud/share/Logins/websitepasswort.txt",
-            "/nfs/cloud/share/Logins/owncloudpasswort.txt",
-            "/nfs/repos/yabue-website/.git/config",
-            "/nfs/cloud/dev/deepwater/deepwater/image/manipulate.py",
-            "/home/baka/.AndroidStudio3.0/system/log/idea.log",
-            "/nfs/downloads/yabuescanner/app/src/main/AndroidManifest.xml",
-            "/nfs/downloads/yabuescanner/app/proguard-rules.pro",
-            "/nfs/downloads/yabuescanner/app/build.gradle",
-            "/nfs/downloads/yabuescanner/build.gradle",
-            "/nfs/downloads/yabuescanner/gradle.properties",
-            "/nfs/downloads/yabuescanner/gradlew.bat",
-            "/nfs/downloads/yabuescanner/settings.gradle",
-            "/nfs/downloads/yabuescanner/local.properties",
-            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/MasterActivity.java",
-            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/adapters/ProductAdapter.java",
-            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/data/Product.java",
-            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/ProductEditDialogActivity.java",
-            "/nfs/downloads/yabuescanner/app/src/main/java/com/yabue/yabuebarcodescanner/activities/MainActivity.java",
-            "/home/baka/dotfiles/bash/.bashrc",
-            "/home/baka/.config/trashrc",
-            "/home/baka/.config/TeXstudiorc",
-            "/home/baka/.config/systemsettingsrc",
-            "/home/baka/.config/startupconfigkeys",
-            "/home/baka/.config/startupconfigfiles",
-            "/home/baka/.config/spectaclerc",
-            "/home/baka/.config/sddmthemeinstallerrc",
-            "/home/baka/.config/QtProject.conf",
-            "/home/baka/.config/powerdevilrc",
-            "/home/baka/.config/plasma-org.kde.plasma.desktop-appletsrc",
-            "/home/baka/.config/plasma-nm",
-            "/home/baka/.config/plasma-localerc",
-            "/home/baka/.config/mimeapps.list",
-            "/home/baka/.config/kwinrulesrc",
-            "/home/baka/.config/kwinrc",
-            "/home/baka/.config/kwin_rules_dialogrc",
-            "/home/baka/.config/kwalletrc",
-            "/home/baka/.config/ktimezonedrc",
-            "/home/baka/.config/ksplashrc",
-            "/home/baka/.config/ksmserverrc",
-            "/home/baka/.config/kservicemenurc",
-            "/home/baka/.config/kscreenlockerrc",
-            "/home/baka/.config/krunnerrc",
-            "/home/baka/.config/konsolerc",
-            "/home/baka/.config/knotifyrc",
-            "/home/baka/.config/knfsshare",
-            "/home/baka/.config/kmixrc",
-            "/home/baka/.config/kmenueditrc",
-            "/home/baka/.config/kiorc",
-            "/home/baka/.config/kio_fishrc",
-            "/home/baka/.config/khotkeysrc",
-            "/home/baka/.config/kglobalshortcutsrc",
-            "/home/baka/.config/kgammarc",
-            "/home/baka/.config/kfontinstuirc",
-            "/home/baka/.config/kdialogrc",
-            "/home/baka/.config/kdeglobals",
-            "/home/baka/.config/kded_device_automounterrc",
-            "/home/baka/.config/kdebugrc",
-            "/home/baka/.config/kconf_updaterc",
-            "/home/baka/.config/kcminputrc",
-            "/home/baka/.config/kcmfonts",
-            "/home/baka/.config/katemetainfos",
-            "/home/baka/.config/kactivitymanagerdrc",
-            "/home/baka/.config/kactivitymanagerd-statsrc",
-            "/home/baka/.config/gwenviewrc",
-            "/home/baka/.config/kaccessrc",
-            "/home/baka/.config/gtkrc-2.0",
-            "/home/baka/.config/gtkrc",
-            "/home/baka/.config/manjaro/manjaro-settings-manager.conf",
-            "/home/baka/.config/manjaro/manjaro-settings-manager-Notifier.conf",
-            "/home/baka/.config/gtk-3.0/settings.ini",
-            "/home/baka/.config/gtk-2.0/gtkfilechooser.ini",
-            "/home/baka/.config/fontconfig/fonts.conf",
-            "/home/baka/.config/fish/functions/fish_prompt.fish",
-            "/home/baka/.config/fish/functions/fin.fish",
-            "/home/baka/.config/fish/fishfile",
-            "/home/baka/.config/fish/config.fish",
-            "/usr/share/applications/org.kde.knetattach.desktop",
-            "/nfs/repos/trunk/ccm-sci-bundle/bundles/local/my-devel/cfg/integration.properties",
-            "/nfs/repos/trunk/local.runtime.properties",
-            "/nfs/repos/trunk/local.ccm.properties",
-            "/nfs/repos/trunk/local.build.properties",
-            "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/contents/components/artwork/README.txt",
-            "/home/baka/.local/share/plasma/look-and-feel/org.kde.breath.desktop/metadata.desktop"
-        ]
-    },
-    "pickerWorkingDir": "/nfs/cloud/dev/deepwater/deepwater/utils"
+    "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json",
+    "themeBackground": "#1e1e1e"
 }
